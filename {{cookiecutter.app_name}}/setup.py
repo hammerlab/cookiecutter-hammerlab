@@ -37,7 +37,7 @@ setup(
         "Topic :: Scientific/Engineering :: Bio-Informatics",
     ],
     keywords='',
-    packages=find_packages(exclude=['docs', 'tests*']),
+    packages=find_packages(exclude=['docs', 'test*']),
     include_package_data=True,
     author='{{cookiecutter.full_name}}',
     install_requires=install_requires,
