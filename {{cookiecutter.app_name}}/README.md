@@ -1,7 +1,6 @@
 {{ cookiecutter.project_name }}
 ===============================
 
-version number: {{ cookiecutter.version }}
 author: {{ cookiecutter.full_name }}
 
 Overview
