@@ -17,27 +17,19 @@ Using CookieCutter for your project
 You will be asked about your basic info (name, project name, app name, etc.). This info will be used in your new project.
 
 
-Publishing your project to pypi
--------------------------------
-
-There are two ways to publish your project:
-
- * the manual way, outlined [here](http://www.willmcginnis.com/2015/11/12/create-a-pip-installable-python-package-in-2-minutes/)
- * and with pypi-publisher [ppp](https://github.com/wdm0006/pypi-publisher)
- 
 Goals
 -----
 
-The goal of this project is simply to take some of the boiler plate out of creating a new python project. It is intended
-to stay pretty minimal, but contains best-practices in use by the Hammer Lab. 
+The goal of this project is simply to take some of the boiler plate out of creating a new Cohorts project. It is intended
+to stay pretty minimal, but contains basic recommended structure of a Cohorts project. 
 
-These projects at a minimum will include:
+The components of the repo currently include:
 
- * Sphinx documentation
- * Installable via pip in pypi
- * Testing via Nose and Coverage
+ * `requirements.txt` file listing dependencies
+ * `README.md` file with project description & data sources
  * Code linting via pylint 
- * Travis CI configuration
+ * `data` directory to contain source data & cached summaries
+ * `analysis` directory to contain utility scripts & ipynbs
 
 Contributing
 ------------
